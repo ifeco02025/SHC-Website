@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "montserrat";
+}
+#home {
+  background-color: #ff4c68;
+  /* background-color: #ff004f; */
+  color: #fff;
+}
+.home-image {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  font-family: "montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+/* navigation Bar */
+.navbar {
+  padding: 0 0 6.4%;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "montserrat-Light";
+}
+
+/* about me */
+#about {
+  padding: 7% 15%;
+}
+.about-image {
+  width: 80%;
+  height: 80%;
+  border-radius: 15px;
+}
+/* .about-text {
+ 
+} */
+.about-text p {
+  line-height: 1.5;
+  color: gray;
+}
+
+/* my work */
+#my-work {
+  /* background-color: gray; */
+  /* background-color: #8f8f8f; */
+  padding: 7% 15%;
+}
+.row h2 {
+  color: rgba(0, 0, 0, 0.836);
+  font-family: "ubuntu";
+}
+.my-work-image {
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.my-work-image:hover {
+  transform: translateY(-10px);
+}
+.my-work-image img {
+  object-fit: cover;
+  height: 70%;
+  width: 80%;
+}
+.my-work-image h6 {
+  /* color: #000; */
+  font-weight: normal;
+}
+
+/* REVIEWS */
+
+#reviews {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.reviews-image {
+  width: 20%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* footer */
+
+#contact {
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
